@@ -17,8 +17,8 @@ I'm fine. Thank you !
 print("A\a\a\a")
 '''
 
-#Asking question
 '''
+#Asking question
 a = int(input("Enter A: "))
 b = int(input("Enter B: "))
 print(a, " + ", b, " = ", a+b)
@@ -58,10 +58,3 @@ print_all(input_file)
 rewind(input_file)
 print_by_line(0, 'ex15_sample.txt')
 '''
-
-#Even more practice
-def break_words(stuff):
-	worlds = stuff.split(' ')
-	return worlds
-
-print(break_words("Hello I am there")[3])
