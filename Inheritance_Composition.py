@@ -30,18 +30,3 @@ child.overrite()
 dad.altered()
 child.altered()
 
-class Other(object):
-	def overrite(seft):
-		print("Other overrite")
-
-class TestOther(object):
-	"""docstring for TestOther"""
-	def __init__(self):
-		self.other = Other()
-
-	def overrite(seft):
-		seft.other.overrite()
-		print("Test overrite")
-
-test = TestOther()
-test.overrite()
